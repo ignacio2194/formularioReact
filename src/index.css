@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://images.cults3d.com/fwS8sQBlHid1G8YHJvhlXG-ygAM=/https://files.cults3d.com/uploaders/16659054/illustration-file/b39e09bc-1fed-417d-93af-ae5b045c1155/maxresdefault-(11).jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h2{
+  text-align: center;
+  color: tomato;
+  font-family: monospace; 
+  text-transform: uppercase;
+}
+p{
+  text-align: center;
+}
+input{
+  margin: 15px;
+  height: 40px;
+  width: 15rem;
+  
+
+}
+
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+ 
+  width: 250px;
+  margin: 0 auto ;
+  margin-top: 100px;
+}
+.buttonEnviar{
+  font-family: monospace;
+  width: 100px;
+  height: 40px;
+margin-left: 90px;
+
+
+}
+.lista{
+  background-color: #fff;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px auto;
+}
